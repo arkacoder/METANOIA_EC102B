@@ -1,10 +1,10 @@
-# Project ID - EC102B
+# Hacking Guide for SMARTCART 😎
 
-# Hacking Guide for Smart-Cart 😎
+## SMARTCART 🤞
 
-## .Smart-Cart 🤞
+##Tech Stack-
 
-It is a E-commerce made with HTML CSS 😊
+It is a E-commerce website made with HTML and CSS 😊
 
 
 ## How to setup it on your device ?? 🤔
@@ -24,17 +24,24 @@ Copy the https link from Code Section
   git clone <https link>
 ```
 Now the project is on your desktop now open it with your code editor
+### 🤞 step 3
+open terminal on the project and type 
+```http
+  cd SMARTCART
+```
 now you are got to go for hacking !!
 
 
-## 😒 What You are  able to change? 
-1. Given Colors
-2. Logo
-3. Landing page Image
-4. Landing Text Design
-5. Make it a single page on scroll or multipage as you wish
 
 
+
+## 😒 What You are not able to change? 
+
+* Don't change the landing page
+* You can change the logo colour, text etc
+* You can add another pages
+* You can change navbar
+* Make it single page on scroll or multipage as you wish
 
 
 ## 👌 Ask your doubt on Discord

@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmartCart</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
 </head>
 
 <body>
     <div class="child">
         <nav>
             <div>
-                <img id="logo" src="logo.png" alt="logo">
+                <img id="logo" src="logo3.png" alt="logo">
             </div>
             <ul>
                 <li>Home</li>
@@ -20,8 +22,10 @@
                 <li>About</li>
                 <li>Contact</li>
             </ul>
+
             <div class="search-container">
                 <form action="/">
+                    <div class="nav-search">
                     <input type="text" placeholder="Search.." name="search">
                     <button type="submit">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -32,14 +36,18 @@
                     </button>
                 </form>
             </div>
+
             <div class="account-options">
-                <a href="#login">Login</a>
-                <a href="#register">Register</a>
+                <a href="#login">Hello, <br>Sign in</a>
+                <a href="#register">Register<br>New User</a>
+               
             </div>
         </nav>
+        
         <div id="hero">
             <div id="leftportion">
-                <span id="title">e-commerce Website</span>
+                <span id="title">
+                    "Shop the World, One Click at a Time!</span>
                 <span id="text">Support local everything</span>
                 <div id="choose-card">
                     <span>Choose Your</span>
@@ -53,16 +61,31 @@
                         </svg>
                     </div>
                 </div>
-                <button>
+                <button style='font-size:larger'>
+                    <i class="fa fa-credit-card"></i> Buy Now 
+                </button>
+                <button id="cart">
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#F7EDE2" class="bi bi-cart3" viewBox="0 0 16 16">
                         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" stroke="#F7EDE2" stroke-width="1"/>
                       </svg>
-                    Buy Now
+                    Add to cart
                 </button>
             </div>
+            
             <div id="rightportion">
                 <figure>
-                    <img src="banner.jpg" alt="">
+                     <!-- <img src="banner.jpg" alt="">  -->
+                    <!-- <img src="box1_image.jpg" alt="Image 1" class="hover">
+                    <img src="box2_image.jpg" alt="Image 2" class="hover"> 
+                    <img src="box3_image.jpg" alt="Image 3" class="hover">
+                    <img src="box4_image.jpg" alt="Image 4" class="hover">
+                    <img src="box5_image.jpg" alt="Image 5" class="hover">
+                    <img src="box6_image.jpg" alt="Image 6" class="hover">
+                    <img src="box7_image.jpg" alt="Image 7" class="hover">
+                    <img src="box8_image.jpg" alt="Image 8" class="hover"> -->
+
+                    
+
                 </figure>
             </div>
         </div>

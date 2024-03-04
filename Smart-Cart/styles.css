@@ -4,7 +4,8 @@
 
 body {
     margin: 0;
-    background-color: #F28482;
+    background-image: linear-gradient(to right,#011d46 , rgb(178, 13, 187));;
+   /* background-color: #F28482;*/
     font-family: Montserrat;
     display: flex;
     justify-content: center;
@@ -75,7 +76,7 @@ input ::placeholder{
     margin-right: 16px;
     margin-bottom: 8px;
     background: transparent;
-    font-size: 17px;
+    font-size: 50px;
     border: none;
     cursor: pointer;
 }
@@ -96,7 +97,8 @@ input ::placeholder{
     margin: 0 auto;
     height: 90vh;
     width: 90%;
-    background-color: #F7EDE2;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(95,9,121,0.7737219887955182) 50%, rgba(0,212,255,1) 100%);
     border-radius: 15px;
 }
 
@@ -131,9 +133,9 @@ input ::placeholder{
 
 #title{
     font-family: "Madimi One", sans-serif;
-    font-size: 64px;
-    font-weight: 800;
-    color: #F28482;
+    font-size: 60px;
+    font-weight: 400;
+    color: #8360c3;
 }
 
 #text{
@@ -189,6 +191,24 @@ input ::placeholder{
 
 #logo{
     height: 60px;
-    width: 60px;
-    border-radius: 50%;
+    width: 170px;
+    border-radius: 20%;
+}
+#product {
+    position: relative;
+}
+
+#cart{
+    padding: 20px 30px 20px 30px;
+    border: none;
+    border-radius: 40px;
+    background-color: #F6BD60;
+    font-family: Montserrat;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #F7EDE2;
+    width: 200px;
+    text-align: center;
+    font-size: larger;
+    cursor: pointer;
 }
